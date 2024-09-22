@@ -1,0 +1,17 @@
+
+# Test playbook for basic-apache-container
+
+#- hosts: localhost
+ # roles:
+  #  - basic-apache-container
+
+
+---
+- hosts: "prod"
+  remote_user: "vagrant"
+  tasks:
+    - name: check website
+      uri:
+        url: http://192.168.99.100
+        status_code: 200
+

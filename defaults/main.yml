@@ -1,0 +1,11 @@
+---
+# defaults file for basic-apache-container
+#apache_container_name: apache_server
+
+# defaults variables
+system_user: root
+webapp_port: 80
+apache_port: 80
+file_template: index.html.j2
+welcome: "{{ system_user }}"
+#ansible_python_interpreter: /usr/bin/python3

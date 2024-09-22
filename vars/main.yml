@@ -1,0 +1,7 @@
+---
+# vars file for basic-apache-container
+#docker_image: httpd:latest
+
+
+# vars file for apache-container
+system_user: admin
