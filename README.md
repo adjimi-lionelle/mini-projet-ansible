@@ -1,4 +1,4 @@
-Role Ansible: Conteneurisation d'apache
+Rôle Ansible: Conteneurisation du serveur apache
 =========
 
 ## Objectif
