@@ -16,4 +16,4 @@
     - name: Install docker python
       pip: name=docker-py
   roles:
-    - { role: ansible-role:-containerized-apache }
+    - { role: ansible-role-containerized-apache }
