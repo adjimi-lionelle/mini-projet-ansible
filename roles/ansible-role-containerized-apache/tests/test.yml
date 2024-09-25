@@ -1,11 +1,4 @@
 
-# Test playbook for basic-apache-container
-
-#- hosts: localhost
- # roles:
-  #  - basic-apache-container
-
-
 ---
 - hosts: "prod"
   remote_user: "vagrant"

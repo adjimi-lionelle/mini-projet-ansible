@@ -1,8 +1,8 @@
 ---
 galaxy_info:
-  author: Your Name
+  author: Lionelle
   description: Role to install and configure Apache web server.
-  company: Your Company
+  company: easytraining
   license: GPLv3
   min_ansible_version: 2.0
   platforms:
