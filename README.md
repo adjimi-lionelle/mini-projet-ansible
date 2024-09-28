@@ -13,15 +13,16 @@ Voici notre playbook de test :
 
 ![alt text](images/image-3.png)
 
-Dans le fichier host_vars/client1.yml est spécifié l'adresse IP du serveur de production
+Dans le fichier host_vars/client1.yml, l'adresse IP du serveur de production est spécifiée.
 
 ![alt text](images/image-6.png)
 
-Dans le fichier host_vars/client2.yml est spécifié l'adresse IP du serveur de staging
+Dans le fichier host_vars/client2.yml, l'adresse IP du serveur de staging est spécifiée.
+
 
 ![alt text](images/image-7.png)
 
-Ces adresse sont inclus dans le fichier d'inventaire host.yml comme vous pouvez le voir sur cette image ci-dessous.
+Ces adresses sont incluses dans le fichier d'inventaire host.yml, comme vous pouvez le voir dans l'image ci-dessous.
 
 ![alt text](images/image-8.png)
 
@@ -33,7 +34,7 @@ Ces adresse sont inclus dans le fichier d'inventaire host.yml comme vous pouvez 
 Pour déployer le serveur Apache conteneurisé, exécutez le playbook à l'aide de la commande suivante:
 
 ```bash
-ansible-playbool apache.yml --limit prod
+ansible-playbook apache.yml --limit prod
 ```
 Client1 : Environnement de production
 
@@ -44,7 +45,7 @@ Client1 : Environnement de production
 Pour déployer le serveur Apache conteneurisé, exécutez le playbook à l'aide de la commande suivante:
 
 ```bash
-ansible-playbool apache.yml --limit staging
+ansible-playbook apache.yml --limit staging
 ```
 Client2 : Environnement de staging
 
