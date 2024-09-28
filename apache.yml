@@ -1,5 +1,5 @@
 ---
-- hosts: prod
+- hosts: all
   become: true
   vars:
     ansible_sudo_pass: admin
